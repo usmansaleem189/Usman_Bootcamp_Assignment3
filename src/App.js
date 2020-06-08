@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import App_Child from './App_Child';
+import AppChild from './AppChild';
 
 function App() {
   return ( 
@@ -20,7 +20,7 @@ function App() {
           Learn React
         </a>
         <hr />
-        <App_Child name="Usman" date="8th June 2020" assignment = "Assignment#3"/>
+        <AppChild name="Usman" date="8th June 2020" assignment = "Assignment#3"/>
 
       </header>
     </div> 
