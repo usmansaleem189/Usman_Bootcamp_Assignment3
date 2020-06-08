@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import App_Child from './App_Child';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,8 +19,11 @@ function App() {
         >
           Learn React
         </a>
+        <hr />
+        <App_Child name="Usman" date="8th June 2020" assignment = "Assignment#3"/>
+
       </header>
-    </div>
+    </div> 
   );
 }
 
