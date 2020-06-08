@@ -19,7 +19,6 @@ function App() {
         >
           Learn React
         </a>
-        <hr/>
         <AppChild name="Usman" date="8th June 2020" assignment = "Assignment#3"/>
 
       </header>
